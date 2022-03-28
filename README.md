@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Slarper's Alchemy
 
-## Setup
+## Background
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+After I had made the mod for easy fall flying, I found that the Powder is not so easy to acquire. So I make this mod for some useful recipes.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
