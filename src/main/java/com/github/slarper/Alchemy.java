@@ -1,6 +1,6 @@
 package com.github.slarper;
 
-import com.github.slarper.item.AlchemyItems;
+import com.github.slarper.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,7 +20,7 @@ public class Alchemy implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 
-		AlchemyItems.load();
+		ModItems.load();
 
 	}
 }

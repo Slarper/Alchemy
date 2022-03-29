@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BSB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:basalt"
+    },
+    "S": {
+      "item": "slarper_alchemy:sagestone"
+    }
+  },
+  "result": {
+    "item": "slarper_alchemy:sulfur",
+    "count": 3
+  }
+}
