@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
@@ -22,7 +23,7 @@ public class ModItems {
     public static final Item NITER;
 
     static {
-        SAGESTONE = register("sagestone", new SageStoneItem((new FabricItemSettings()).group(ItemGroup.MATERIALS)));
+        SAGESTONE = register("sagestone", new SageStoneItem((new FabricItemSettings()).group(ItemGroup.MATERIALS).rarity(Rarity.EPIC)));
         ((ItemAccessor)SAGESTONE).setRecipeRemainder(SAGESTONE);
 
         SULFUR = register("sulfur", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
