@@ -6,4 +6,4 @@ After I had made the mod for easy fall flying, I found that the gunpowder is not
 
 ## License
 
-Is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Is available under the CC-SA license. Feel free to learn from it and incorporate it in your own projects.
