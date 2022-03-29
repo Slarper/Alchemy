@@ -19,6 +19,7 @@ public class ModItems {
     public static final Item SAGESTONE;
     public static final Item SULFUR;
     public static final Item MIXED;
+    public static final Item NITER;
 
     static {
         SAGESTONE = register("sagestone", new SageStoneItem((new FabricItemSettings()).group(ItemGroup.MATERIALS)));
@@ -26,5 +27,6 @@ public class ModItems {
 
         SULFUR = register("sulfur", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
         MIXED = register("mixed", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+        NITER = register("niter", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     }
 }
