@@ -1,20 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "BBB",
-    "BSB",
-    "BBB"
-  ],
-  "key": {
-    "B": {
-      "item": "minecraft:basalt"
-    },
-    "S": {
-      "item": "slarper_alchemy:sagestone"
-    }
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "slarper_alchemy:mixed"
   },
-  "result": {
-    "item": "slarper_alchemy:sulfur",
-    "count": 3
-  }
+  "result": "slarper_alchemy:sagestone",
+  "experience": 1600,
+  "cookingtime": 1600
 }

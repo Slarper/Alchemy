@@ -18,11 +18,13 @@ public class ModItems {
 
     public static final Item SAGESTONE;
     public static final Item SULFUR;
+    public static final Item MIXED;
 
     static {
         SAGESTONE = register("sagestone", new SageStoneItem((new FabricItemSettings()).group(ItemGroup.MATERIALS)));
         ((ItemAccessor)SAGESTONE).setRecipeRemainder(SAGESTONE);
 
         SULFUR = register("sulfur", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+        MIXED = register("mixed", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     }
 }
