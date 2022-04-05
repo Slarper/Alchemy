@@ -33,7 +33,7 @@ public class AlchemyItems {
         SULFUR = register("sulfur", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
         MIXED = register("mixed", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
         NITER = register("niter", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
-        CALABASH = register("calabash", new CalabashItem(new FabricItemSettings().group(ItemGroup.MISC)));
+        CALABASH = register("calabash", new CalabashItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(16)));
         GOLDEN_CALABASH = register("golden_calabash", new GoldenCalabashItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
         PURPLE_CALABASH = register("purple_calabash", new PurpleCalabashItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     }
