@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
-public class ModItems {
+public class AlchemyItems {
 
     public static void load(){}
 
@@ -21,6 +21,10 @@ public class ModItems {
     public static final Item SULFUR;
     public static final Item MIXED;
     public static final Item NITER;
+    public static final Item CALABASH;
+    public static final Item GOLDEN_CALABASH;
+    public static final Item PURPLE_CALABASH;
+
 
     static {
         SAGESTONE = register("sagestone", new SageStoneItem((new FabricItemSettings()).group(ItemGroup.MATERIALS).rarity(Rarity.EPIC)));
@@ -29,5 +33,8 @@ public class ModItems {
         SULFUR = register("sulfur", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
         MIXED = register("mixed", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
         NITER = register("niter", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+        CALABASH = register("calabash", new CalabashItem(new FabricItemSettings().group(ItemGroup.MISC)));
+        GOLDEN_CALABASH = register("golden_calabash", new GoldenCalabashItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+        PURPLE_CALABASH = register("purple_calabash", new PurpleCalabashItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     }
 }

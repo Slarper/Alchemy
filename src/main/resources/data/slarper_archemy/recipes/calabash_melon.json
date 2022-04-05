@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:melon"
+    },
+    {
+      "item": "slarper_alchemy:sagestone"
+    }
+  ],
+  "result": {
+    "item": "slarper_alchemy:calabash",
+    "count": 1
+  }
+}
